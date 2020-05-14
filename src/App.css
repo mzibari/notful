@@ -1,0 +1,81 @@
+
+main {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+.side__section {
+  text-align: center;
+  border: 1px solid black;
+  flex: 1;
+  margin: 2%;
+}
+
+.main__content {
+  flex: 2;
+  height: 100%;
+  border: 1px solid black;
+  margin: 2%;
+}
+
+.single__folder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+  width: 80%;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  margin: 10%;
+}
+
+.single__folder:hover {
+  background-color: lightgrey;
+}
+
+.add__folder {
+  height: 3vh;
+  width: 80%;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  margin: 10%;
+}
+
+.single__note{
+  padding: 0 2% 0 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 80%;
+  height: 10vh;
+  margin: 2% 10% 2% 10%;
+}
+
+.single__note *{
+  padding: 0;
+  margin: 0;
+}
+
+.single__note div{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.single__note div button{
+  width: 10vh;
+  height: 3vh;
+}
